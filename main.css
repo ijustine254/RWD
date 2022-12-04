@@ -18,13 +18,14 @@
   padding: 9px 10px;
 }
 .section .menu {
-  background: #287094;
   padding: 0 6px;
 }
 .section .menu a {
+  background: #287094;
   color: #F6F6F6;
   display: block;
   margin: 6px 14px;
+  padding: 6px;
   text-decoration: none;
 }
 .section p {
@@ -64,6 +65,7 @@
 }
 @media screen and (min-width: 992px) {
   .menu {
+    background: #287094;
     float: inherit;
     width: 100%;
   }
