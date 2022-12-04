@@ -2,6 +2,8 @@
   box-sizing: border-box;
   font-size: 100%;
   font-family: "Gill Sans", sans-serif;
+  letter-spacing: normal;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -16,6 +18,19 @@
   color: #F6F6F6;
   font-size: 24px;
   padding: 9px 10px;
+}
+.section .header .img {
+  position: relative;
+}
+.section .header .img .logo {
+  height: 50px;
+  width: 70px;
+}
+.section .header .img h2 {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .section .menu {
   padding: 0 6px;
@@ -64,10 +79,20 @@
   }
 }
 @media screen and (min-width: 992px) {
+  .row {
+    margin-top: 0;
+  }
   .menu {
     background: #287094;
     float: inherit;
     width: 100%;
+  }
+  .menu a {
+    display: inline-block !important;
+  }
+  .menu a:hover {
+    background-color: #F6F6F6;
+    color: #287094;
   }
   .sidebar {
     float: left;
