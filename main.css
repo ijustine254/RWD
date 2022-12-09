@@ -98,7 +98,7 @@
     float: left;
   }
   .body, .sidebar {
-    margin: 18px 10px;
+    margin: 1rem 10px;
   }
   .body {
     width: 67%;
