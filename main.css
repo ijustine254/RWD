@@ -97,8 +97,11 @@
   .sidebar {
     float: left;
   }
+  .body, .sidebar {
+    margin: 18px 10px;
+  }
   .body {
-    width: 70%;
+    width: 67%;
   }
   .sidebar {
     width: 30%;

@@ -47,9 +47,7 @@
         margin: 15px 9px;
         padding: 16px 10px
     }
-}
-
-  
+} 
 @media screen and (min-width: 768px) {
     .row {
         margin: 10px 0;
@@ -74,13 +72,11 @@
         float: right
     }
 }
-  
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .body p:first-child {
         margin-top: 0;
     }
 }
-  
 @media screen and (min-width: 992px) {
     .row {
         margin-top: 0;
@@ -100,8 +96,11 @@
     .sidebar {
         float: left
     }
+    .body, .sidebar {
+        margin: 18px 10px
+    }
     .body {
-        width: 70%;
+        width: 67%;
     }
     .sidebar {
         width: 30%;
